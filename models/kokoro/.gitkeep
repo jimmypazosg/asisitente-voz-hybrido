@@ -1,0 +1,2 @@
+# Este archivo asegura que Git mantenga la estructura del directorio models/kokoro/
+# Los pesos .onnx y .bin se ignoran en .gitignore por exceder el limite de tamaño de GitHub.

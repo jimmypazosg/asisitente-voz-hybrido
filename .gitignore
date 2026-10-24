@@ -1,0 +1,85 @@
+# ==========================================
+# Entornos virtuales y dependencias de Python
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Caché de Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# ==========================================
+# Configuración local y credenciales privadas
+# ==========================================
+# NOTA: config.json contiene claves de API personales.
+# Se usa config.example.json como plantilla pública.
+config.json
+.env
+.env.*
+*.pem
+*.key
+
+# ==========================================
+# Logs y archivos de depuración
+# ==========================================
+*.log
+asistente.log
+
+# ==========================================
+# Modelos neuronales pesados (>50MB/100MB)
+# (GitHub rechaza pushes con archivos >100MB)
+# Usar el script descargar_modelos.py para obtenerlos
+# ==========================================
+models/kokoro/*.onnx
+models/kokoro/*.bin
+models/**/*.onnx
+models/**/*.bin
+models/**/*.safetensors
+models/**/*.pt
+!models/**/.gitkeep
+
+# ==========================================
+# Archivos temporales de audio
+# ==========================================
+*.wav
+*.mp3
+*.flac
+
+# ==========================================
+# IDEs y Editores
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Archivos del sistema operativo (Windows)
+# ==========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
